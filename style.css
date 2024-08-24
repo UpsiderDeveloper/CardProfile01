@@ -15,7 +15,8 @@ body {
     width: 100%;
     min-height: 100vh;
     max-height: 100vh;
-    padding-bottom: 1rem;
+        padding-bottom: 1rem;
+        overflow-block: hidden;
 }
 
 a {
@@ -69,6 +70,7 @@ a {
     align-items: center;
     justify-content: center;
     padding: .8rem;
+    max-height: ;
 }
 
 .content {
@@ -274,8 +276,8 @@ a {
 
 .img-tread {
     width: 120px;
-    height: 120px;
-    background-image: url(/img/logo.png);
+        height: 120px;
+        background-image: url(/img/logo.png);
     background-position: center;
     background-size: 100%;
     background-repeat: no-repeat;
@@ -336,8 +338,8 @@ a {
 /****************** WIDGET 4 */
 .widget4 {
     width: 100%;
-    height: 16%;
-    background-color: var(--color-primary);
+    height: 12%;
+        background-color: var(--color-primary);
     border-radius: 12px;
     display: flex;
     align-items: center;
@@ -369,7 +371,7 @@ a {
 /****************** WIDGET 5 */
 .widget5 {
     width: 100%;
-    height: 16%;
+    height: 12%;
     background-color: var(--color-black);
     border-radius: 12px;
     display: flex;
@@ -438,29 +440,28 @@ a {
 
 .iconBlock i {
     text-decoration: none;
-    color: var(--color-primary) ;
+    color: var(--color-primary);
     font-size: 32px;
     margin-right: 1rem;
 }
 
 .iconBlock1 i {
     text-decoration: none;
-    color: var(--color-white) ;
+    color: var(--color-white);
     font-size: 32px;
     margin-right: 1rem;
 }
 
-.footer{
+.footer {
     font-size: 8px;
     display: flex;
     justify-content: center;
     color: var(--color-white);
 }
 
-.footer strong{
+.footer strong {
     color: var(--color-primary);
 }
-
 @keyframes rotate {
     from {
         transform: rotate(0deg);
